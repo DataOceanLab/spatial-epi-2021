@@ -1,4 +1,4 @@
-baseurl: "https://jiayuasu.github.io/spatial-epi-2021"
+baseurl: "https://dataoceanlab.github.io/spatial-epi-2021"
 title: "International Workshop on Spatial Computing for Epidemiology@ACM SIGSPATIAL 2021"
 canonifyurls: true
 theme: "hugo-conference"
