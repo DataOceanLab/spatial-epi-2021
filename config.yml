@@ -7,9 +7,9 @@ GoogleAnalytics: ""
 
 params:
   # Conference info
-  Name: "International Workshop on Spatial Computing for Epidemiology@ACM SIGSPATIAL 2020"
+  Name: "SpatialEpi@ACM SIGSPATIAL 2021"
   Description: "International Workshop on Spatial Computing for Epidemiology@ACM SIGSPATIAL 2020"
-  Date: "November 3, 2020, Pacific Time"
+  Date: "November 2, 2021, Beijing Time"
   # Price: "Only $100" # If your event is free, just comment this line
   Venue: "Online"
   Address: "Online"
@@ -21,20 +21,24 @@ params:
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
   Sections:
-    - about
+    - intro
     - location
-    - speakers
-    - schedule
-    # - sponsors
-    # - partners
+    - cfp
+    - deadline
+    - organizer
+    # - speakers
+    # - schedule
     #- contact
 
   # Titles which you can translate to other languages
   Titles:
-    about: "About"
+    intro: "About"
     location: "Location"
+    cfp: "Call For Papers"
+    organizer: "Organization Committee"
     speakers: "Speakers"
     schedule: "Schedule"
+    deadline: "Important Dates"
     # sponsors: "Sponsors"
     # partners: "Partners"
     # contact: "Contact"
@@ -45,6 +49,40 @@ params:
     text: "Register now"
     link: ""
 
+  intro:
+    text: "The 2nd ACM SIGSPATIAL International Workshop on Spatial Computing for Epidemiology (SpatialEpi’21) focuses on all aspects of modeling, simulating, mining, and understanding the spatial processes and patterns of the spread of COVID-19 and other infectious diseases. This cross-disciplinary workshop is a forum to bring together researchers in the SIGSPATIAL community as well as researchers in epidemiology. Also, this workshop is of interest to everyone who works with infectious disease data and models (not necessarily COVID19). In addition to paper presentations, this workshop will feature invited speakers keynotes from experts across the SIGSPATIAL community and epidemiology."
+
+  cfp:
+    text: "The workshop seeks high-quality full (8-10 pages) and short (4 pages) papers that have not been published in other academic outlets and are not concurrently under peer review. Once accepted, at least one author is required to register for the workshop and the ACM SIGSPATIAL conference, as well as attend the workshop to present the accepted work which will then appear in the ACM Digital Library."
+    keywords: ["Contact Tracing", 
+    "COVID-19 Tracking and Data Collection", 
+    "COVID-19 Data Cleaning and Wrangling", 
+    "Disease Spread Simulation", "COVID-19 Data Mining", 
+    "Managing Uncertainty in COVID-19 Data", 
+    "COVID-19 Data Query Processing", "Mapping and Visual Analytics of COVID-19", 
+    "COVID-19 Effects on Human Mobility", 
+    "Prescriptive Analytics for COVID-19", 
+    "COVID-19 Hotspot Detection", 
+    "Socioeconomic Impact of COVID-19", 
+    "COVID-19 Simulation and Modeling", 
+    "Spatial Analysis of COVID-19", 
+    "COVID-19 and Social Media", 
+    "Spatially Explicit COVID-19 Prediction Models"]
+
+  organizer:
+    pc_chair: ["Taylor Anderson (George Mason University)", 
+    "Hamdi Kavak (George Mason University)", 
+    "Joon-Seok Kim (Pacific Northwest National Laboratory)", 
+    "Jia Yu (Washington State University)", 
+    "Andreas Züfle (George Mason University)"]
+    pc_member: ["To be announced"]
+
+  deadline:
+    submission: "To be announced"
+    notification: "To be announced"
+    camera: "To be announced"
+    workshopdate: "To be announced"
+    submissionsite: "To be announced"
   # Fork me on GitHub, if you don't want this, just remove the forkButton property
   # ForkButton:
   #   repository: "https://github.com/jweslley/hugo-conference/"
@@ -54,215 +92,3 @@ params:
   #   - name: "Hugo"
   #     logo: "/img/hugo.png"
   #     url: "http://gohugo.io"
-
-  # # List of Partners
-  # Partners:
-  #   - name: "Hugo"
-  #     logo: "/img/hugo.jpg"
-  #     url: "https://gohugo.io"
-  #   - name: "BrazilJS"
-  #     logo: "/img/partner.png"
-  #     url: "http://braziljs.org"
-
-# The entire schedule
-  Speakers: 
-    - name: "Nicholas Reich"
-      photo: "/img/Nicholas_Reich_MG_0921_cropped.jpg"
-      bio: "Nicholas G Reich is an Associate Professor of Biostatistics at the University of Massachusetts Amherst. He received a PhD in Biostatistics from Johns Hopkins School of Public Health. His research team at UMass has developed statistical methods and open-source tools for creating probabilistic, ensemble forecasts of infectious disease outbreaks in real-time. His team leads two international infectious disease forecasting consortia, including the FluSight Network and the COVID-19 Forecast Hub. Dr. Reich is the director of an Influenza Forecasting Center of Excellence, funded by the U.S. Centers for Disease Control and Prevention (CDC). Read more about his research lab at https://reichlab.io"
-      company: "University of Massachusetts Amherst"
-      talk: 
-        title: "A critical evaluation of COVID-19 pandemic forecasts"
-        href: ""
-      # link:
-      #   twitter: "http://twitter.com/linus"
-      #   github: "http://github.com/linus"
-      #   linkedin: "http://linkedin.com/linus"
-    - name: "Jeffrey Shaman"
-      photo: "/img/Jeffrey_Shaman.jpg"
-      bio: "Jeffrey Shaman is a Professor in the Department of Environmental Health Sciences and Director of the Climate and Health Program at the Columbia University Mailman School of Public Health. He studies the survival, transmission and ecology of infectious agents, including the effects of meteorological and hydrological conditions on these processes. Work-to-date has primarily focused on mosquito-borne and respiratory pathogens. He uses mathematical and statistical models to describe, understand, and forecast the transmission dynamics of these disease systems, and to investigate the broader effects of climate and weather on human health."
-      company: "Columbia University"
-      talk: 
-        title: "Transmission Dynamics of SARS-CoV-2: Modeling, Inference and Projection "
-        href: ""
-      # link:
-      #   twitter: "http://twitter.com/bill"
-      #   github: "http://github.com/bill"
-      #   linkedin: "http://linkedin.com/bill"
-    # - name: "Chuck Norris"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Delta Command"
-    #   talk: 
-    #     title: "How to kill a elephant with one finger"
-    #     href: "/#4"
-    #   link:
-    #     twitter: "http://twitter.com/chuk"
-    #     linkedin: "http://linkedin.com/chuck"
-    # - name: "Steve Jobs"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Apple, Inc."
-    #   talk:
-    #     title: "Presenting iPad"
-    #     href: "/#6"
-    #   link:
-    #     twitter: "http://twitter.com/steve"
-    #     github: "http://github.com/steve"
-    #     linkedin: "http://linkedin.com/steve"
-    # - name: "Mark Zuckerberg"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Facebook"
-    #   talk:
-    #     title: "Revealing Facebook Secrets"
-    #     href: "/#8"
-    #   link:
-    #     twitter: "http://twitter.com/zuck"
-    #     github: "http://github.com/chuck"
-    # - name: "Steve Wozniak"
-    #   photo: "/img/speaker.jpg"
-    #   bio: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo"
-    #   company: "Apple, Inc."
-    #   talk:
-    #     title: "Why do I prefer Android over iPhone"
-    #     href: "/#9"
-    #   link:
-    #     twitter: "http://twitter.com/woz"
-    #     github: "http://github.com/woz"
-     
-
-
-  Schedule:
-  - presentation:
-      id: 1
-      title: "Opening Remarks"
-      description: ""
-      time: "08:00"
-  - presentation:
-      id: 2
-      title: "A critical evaluation of COVID-19 pandemic forecasts"
-      description: "Nicholas G Reich is an Associate Professor of Biostatistics at the University of Massachusetts Amherst. He received a PhD in Biostatistics from Johns Hopkins School of Public Health. His research team at UMass has developed statistical methods and open-source tools for creating probabilistic, ensemble forecasts of infectious disease outbreaks in real-time. His team leads two international infectious disease forecasting consortia, including the FluSight Network and the COVID-19 Forecast Hub. Dr. Reich is the director of an Influenza Forecasting Center of Excellence, funded by the U.S. Centers for Disease Control and Prevention (CDC). Read more about his research lab at https://reichlab.io"
-      time: "08:10"
-      speaker: "Nicholas Reich"
-      company: "University of Massachusetts Amherst"
-  - presentation:
-      id: 3
-      title: "Contact Tracing: Beyond the Apps"
-      description: "Newsletter paper"
-      time: "09:00"
-      speaker: "Mohamed Mokbel, Sofiane Abbar, Rade Stanojevic"
-  - presentation:
-      id: 4
-      title: "Infection Risk Score: Identifying the risk of infection propagation based on human contact"
-      description: "Workshop paper"
-      time: "09:15"
-      speaker: "Rachit Agarwal and Abhik Banerjee "
-  - presentation:
-      id: 5
-      title: "GeoCoV19: A Dataset of Hundreds of Millions of Multilingual COVID-19 Tweets with Location Information"
-      description: "Newsletter paper"
-      time: "09:30"
-      speaker: "Umair Qazi, Muhammad Imran, Ferda Ofli"      
-  - presentation:
-      id: 6
-      title: "Rapid detection of COVID-19 clusters in the United States using a prospective space-time scan statistic: An update"
-      description: "Newsletter paper"
-      time: "9:45"
-      speaker: "Alexander Hohl, Eric Delmelle, Michael Desjardins"
-  - presentation:
-      id: 7
-      title: "Transmission Dynamics of SARS-CoV-2: Modeling, Inference and Projection "
-      description: "Jeffrey Shaman is a Professor in the Department of Environmental Health Sciences and Director of the Climate and Health Program at the Columbia University Mailman School of Public Health. He studies the survival, transmission and ecology of infectious agents, including the effects of meteorological and hydrological conditions on these processes. Work-to-date has primarily focused on mosquito-borne and respiratory pathogens. He uses mathematical and statistical models to describe, understand, and forecast the transmission dynamics of these disease systems, and to investigate the broader effects of climate and weather on human health."
-      time: "10:00"
-      speaker: "Jeffrey Shaman"
-      company: "Columbia University"
-  - presentation:
-      id: 8
-      title: "Break"
-      description: ""
-      time: "10:50"
-      speaker: ""           
-  - presentation:
-      id: 9
-      title: "Geospatial forecasting of COVID-19 spread and risk of reaching hospital capacity"
-      description: "Newsletter paper"
-      time: "11:00"
-      speaker: "Georgiy Bobashev, Ignacio Segovia-Dominguez, Yulia R. Gel, James Rineer, Sarah Rhea, Hui Sui"
-  - presentation:
-      id: 10
-      title: "On Improving Toll Accuracy for COVID-like Epidemics in Underserved Communities Using User-generated Data"
-      description: "Workshop paper"
-      time: "11:15"
-      speaker: "Hamada A. Aboubakr and Amr Magdy"      
-  - presentation:
-      id: 11
-      title: "Corona Games: Masks, Social Distancing and Mechanism Design"
-      description: "Workshop paper"
-      time: "11:30"
-      speaker: "Balázs Pejó and Gergely Biczók"
-  - presentation:
-      id: 12
-      title: "COVID-19 Risk Estimation using a Time-varying SIR-model"
-      description: "Workshop paper"
-      time: "11:45"
-      speaker: "Mehrdad Kiamari, Gowri Ramachandran, Quynh Nguyen, Eva Pereira, Jeanne Holm and Bhaskar Krishnamachari"
-  - presentation:
-      id: 13
-      title: "Break"
-      description: ""
-      time: "12:00 - 12:05"
-      speaker: ""      
-  - presentation:
-      id: 14
-      title: "REACT: Real-Time Contact Tracing and Risk Monitoring using Privacy-Enhanced Mobile Tracking"
-      description: "Newsletter paper"
-      time: "12:05"
-      speaker: "Li Xiong, Cyrus Shahabi, Yanan Da, Ritesh Ahuja, Vicki Hertzberg, Lance Waller, Xiaoqian Jiang, Amy Franklin"
-  - presentation:
-      id: 15
-      title: "Sensitivity Analysis for COVID-19 Epidemiological Models within a Geographic Framework"
-      description: "Workshop paper"
-      time: "12:20"
-      speaker: "Zhongying Wang and Orhun Aydin"
-  - presentation:
-      id: 16
-      title: "COVID-19 Ensemble Models Using Representative Clustering"
-      description: "Newsletter paper"
-      time: "12:35"
-      speaker: "Joon-Seok Kim, Hamdi Kavak, Andreas Züfle, Taylor Anderson"      
-  - presentation:
-      id: 17
-      title: "Analysis of the Impact of COVID-19 on Education Based on Geotagged Twitter"
-      description: "Workshop paper"
-      time: "12:50"
-      speaker: "Zhu Wang and Isabel Cruz"
-  - presentation:
-      id: 18
-      title: "Break"
-      description: ""
-      time: "13:05 - 13:10"
-      speaker: "Zhu Wang and Isabel Cruz"      
-  - presentation:
-      id: 19
-      title: "Using Animation to Visualize Spatio-Temporal Varying COVID-19 Data"
-      description: "Workshop paper"
-      time: "13:10"
-      speaker: "Hanan Samet, Yunheng Han, John Kastner and Hong Wei "
-  - presentation:
-      id: 20
-      title: "Human Mobility based Individual-level Epidemic Simulation Platform"
-      description: "Newsletter paper"
-      time: "13:30"
-      speaker: "Zipei Fan, Xuan Song, Yinghao Liu, Zhiwen Zhang, Chuang Yang, Quanjun Chen, Renhe Jiang, Ryosuke Shibasaki"
-  - presentation:
-      id: 21
-      title: "COVID-19 Joint Pandemic Modeling and Analysis Platform"
-      description: "Workshop paper"
-      time: "13:45"
-      speaker: "Gautam Thakur, Kevin Sparks, Anne Berres, Varisara Tansakul, Erik Schmidt, Supriya Chinthavali, Matthew Whitehead, Haowen Xu, Junchuan Fan, Dustin Spears and Elton Cranfill"  
-  - presentation:
-      id: 22
-      title: "Mapping county-level mobility pattern changes in the United States in response to COVID-19 "
-      description: "Newsletter paper"
-      time: "14:00"
-      speaker: "Song Gao, Jinmeng Rao, Yuhao Kang, Yunlei Liang, Jake Kruse"    
