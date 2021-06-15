@@ -1,5 +1,3 @@
-# covid19-workshop
-
 ## Building the website
 
 1. Install [Hugo](https://gohugo.io/getting-started/installing/)
