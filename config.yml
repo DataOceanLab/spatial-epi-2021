@@ -16,7 +16,6 @@ params:
   City:  "Beijing"
   State: "China"
   Images: ["/img/logo.jpg"]
-  GoogleMapsKey: "AIzaSyCo7qXu1oVXjT-vgNkN9Xlywak31tuaq1Y"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
