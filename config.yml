@@ -16,6 +16,7 @@ params:
   City:  "Beijing"
   State: "China"
   Images: ["/img/logo.jpg"]
+  big_logo: "/images/acmsigspatial-full.png"
 
   # Active sections on the website to deactivate comment out with '#'
   # you can also change order here and it will reflect on page
