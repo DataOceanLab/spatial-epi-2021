@@ -19,7 +19,7 @@
   {{ range $keyword_index, $keyword := .cfp.keywords }}
   <td class="tg-r3w3">{{ $keyword }}</td>
   <!-- Control the number of columns per row -->
-    {{ if  (mod $keyword_index 2) 0 }}<tr></tr>{{ end }}
+    {{ if  eq (mod $keyword_index 2) 1 }}<tr></tr>{{ end }}
   {{ end }}
 </tbody>
 </table>
