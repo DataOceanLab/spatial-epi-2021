@@ -10,27 +10,20 @@
     {{ end }}
 
     <h3 class="speakers-name">{{ .name }}
-      {{ with $speaker.link.linkedin }}
-      <div class="speaker-link">
-          <a href="{{ $speaker.link.twitter }}"><i class="fab fa-linkedin"></i></a>
-      </div>    
-    {{ end }}
-    {{ with $speaker.link.github }}
-        <div class="speaker-link">
-            <a href="{{ $speaker.link.github }}"><i class="fab fa-github-square"></i></a>
-        </div>    
-      {{ end }}
     {{ with $speaker.link.twitter }}
           <div class="speaker-link">
               <a href="{{ $speaker.link.twitter }}"><i class="fab fa-twitter-square"></i></a>
           </div>    
         {{ end }}
     </h3>
-    <p class="speakers-bio">{{ .bio }}</p>
+    <p></p>
     <h4 class="speech-title">
-      <span>Talk:</span>
+      <span>Keynote:</span>
       <a href="{{ .talk.href }}" title="{{ .text }}"> {{ .talk.title }} </a>
+      <!-- <p>{{ .talk.abstract }}</p> -->
     </h4>
+    <p class="speakers-bio">{{ .talk.bio }}</p>    
+  
   </li>
 {{ end }}
 </ul>

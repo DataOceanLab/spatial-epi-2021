@@ -26,8 +26,8 @@ params:
     - cfp
     - deadline
     - organizer
-    # - speakers
-    # - schedule
+    - speakers
+    - schedule
     #- contact
 
   # Titles which you can translate to other languages
@@ -85,12 +85,41 @@ params:
     camera: "To be announced"
     workshopdate: "November 02, 2021 (anywhere on earth)"
     submissionsite: "https://easychair.org/my/conference?conf=spatialepi21"
-  # Fork me on GitHub, if you don't want this, just remove the forkButton property
-  # ForkButton:
-  #   repository: "https://github.com/jweslley/hugo-conference/"
 
-  # List of Sponsors
-  # Sponsors:
-  #   - name: "Hugo"
-  #     logo: "/img/hugo.png"
-  #     url: "http://gohugo.io"
+  speakers:
+    - name: "Amira Roess"
+      photo: "https://chhs.gmu.edu/sites/g/files/yyqcgq286/files/profile-headshot/200-Amira%20Roess.jpg"
+      company: "George Mason University"
+      talk: 
+        title: "The practicalities of multiple disciplinary research: lessons from COVID-19"
+        abstrct: ""
+        bio: "Dr. Roess is a professor of Global Health and Epidemiology at George Mason University's College of Health and Human Services. Her expertise is in infectious diseases epidemiology, multi-disciplinary and multi-species field research and evaluating interventions to reduce the transmission and impact of infectious diseases. Dr. Roess leads several longitudinal studies including on the emergence and transmission of Campylobacter (with support from The Bill and Melinda Gates Foundation), MERS-CoV (with support from the US National Science Foundation), development of COVID-19 in the first year of life (with support from NIH), and the development of the microbiome during the first year of life. She is also working on a number of other COVID-19 projects, including examining infection disparities and use of mHealth (especially apps) to enhance surveillance and contact tracing. Dr. Roess holds a PhD in global disease epidemiology and control from Johns Hopkins University. Her current studies are in the US, Bangladesh, Egypt, and Ethiopia. Prior to joining academia, Dr. Roess served as the Science Director for the Pew Commission on Industrial Food Animal Production at Johns Hopkins, and was an Epidemic Intelligence Service (EIS) officer at the CDC. She has served as consultant for the United States Agency for International Development, the World Bank, and Westat Inc. She has a master degree from the UMDNJ/ Rutgers University School of Public Health."
+        href: "#schedule"
+  schedule:
+    - title: "Openning remarks"
+      time: "2021-11-02 09:00:00"
+      abstract: ""
+      file: "frontmatter.pdf"
+      authors: ""
+    - title: "Keynote"
+      time: "2021-11-02 09:05:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file:
+      # authors: "James Kyle (SafeGraph)"
+    - title: "Correlation Analysis of Spatio-temporal Arabic COVID-19 Tweets"
+      time: "2021-11-02 10:05:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file: ""
+      # authors: "James Kyle (SafeGraph)"
+    - title: "Mobility Response to COVID-19-related Restrictions in New York City"
+      time: "2021-11-02 10:20:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file: ""
+    - title: "Developing a clustering environment for real time tracking and analysis of Covid-19 case clusters"
+      time: "2021-11-02 10:35:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file: ""
+    - title: "Closing Remarks"
+      time: "2021-11-02 10:55:00"
+      abstract: "Our workshop’s objective is to provide professionals, researchers, and practitioners interested in deriving human movement patterns from location data. We use a sample of our Weekly and Monthly Patterns and Core Places products to perform market research on a potential new coffee shop location. How far are customers willing to travel for coffee? What location will receive the most visibility? Where do most of the coffee customers come from? We’ll address these concerns and more in building a market analysis proposal in real time."
+      file:
